@@ -1,0 +1,85 @@
+header {
+width: 100%;
+height: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 30px;
+border-bottom: 1rem var(--base-celeste) solid;
+background-color: var(--base-gray);
+}
+
+header .header-tittle {
+  font-size: 4.5rem;
+}
+
+header .header-counter {
+  font-size: 2.5rem;
+}
+
+header label {
+  color: var(--base-celeste);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+main input {
+  width: 30%;
+  height: 75px;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--base-celeste);
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  color: var(--base-gray);
+  margin-bottom: 50px;
+  
+}
+
+main input:focus {
+  outline-color: var(--base-gray);
+}
+
+ul {
+  width: 50%;
+  border: 1px var(--base-gray) solid;
+  border-radius: 20px;
+  padding: 10px;
+  list-style: none;
+}
+
+ul li {
+    padding: 10px;
+    margin-top: 10px;
+    background-color:var(--base-celeste);
+    border-color: var(--base-gray);
+    border-radius: 20px;
+    font-size: 1.3rem;
+  }
+
+  .primary-button {
+    position: fixed;
+    top: 80%;
+    left: 70%;
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
+    background-color: var(--base-gray);
+    color: var(--base-celeste);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+  
